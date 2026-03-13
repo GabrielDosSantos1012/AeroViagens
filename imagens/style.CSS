@@ -1,0 +1,31 @@
+.cabecalho {
+    background-color: rgb(15, 15, 15);
+    display: flex; /*Tornando os itens lado a lado | flexbox*/
+     align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.img-header {
+    width: 200px; /* largura da logo header*/
+    
+}
+
+/*estilização das lista*/
+.ul-lista li {
+    list-style: none;
+    
+}
+
+.ul-lista {
+    display: flex;/**/
+    gap: 15px; /*espaçamento entre as listas*/
+}
+
+.ul-lista li a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900; 
+    font-family: "UnifrakturMaguntia", cursive;
+}
