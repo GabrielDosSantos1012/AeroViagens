@@ -1,31 +1,48 @@
+
+* {
+  font-family: "Playfair Display", serif;
+
+}
 .cabecalho {
     background-color: rgb(15, 15, 15);
     display: flex; /*Tornando os itens lado a lado | flexbox*/
      align-items: center;
     justify-content: space-evenly;
     padding: 30px;
+    position: sticky;
+    top: 0%;
+    left: 0;
+    z-index: 1;
+
 }
 
 .img-header {
     width: 200px; /* largura da logo header*/
+    padding: 25;
+    align-items: center;
+     color: rgb(132, 32, 220);
     
 }
 
 /*estilização das lista*/
 .ul-lista li {
     list-style: none;
+  
+
     
 }
 
 .ul-lista {
     display: flex;/**/
     gap: 15px; /*espaçamento entre as listas*/
+    color: yellow;
 }
 
 .ul-lista li a {
     text-decoration: none;
-    color: black;
+    color: rgb(245, 230, 17);
     font-size: large;
     font-weight: 900; 
-    font-family: "UnifrakturMaguntia", cursive;
+    font-family: "UnifrakturMaguntia", cursive; 
+
 }
